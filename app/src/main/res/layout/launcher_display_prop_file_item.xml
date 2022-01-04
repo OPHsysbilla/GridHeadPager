@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="@dimen/launcher_cloud_file_item_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_select"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="18dp"
+        android:src="@mipmap/megrez_view_ic_circle_unselect" />
+
+    <FrameLayout
+        android:layout_width="98dp"
+        android:layout_height="98dp">
+
+        <ImageView
+            android:id="@+id/prop_file_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/launcher_icon_folder" />
+
+        <ImageView
+            android:id="@+id/prop_file_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            tools:src="@drawable/launcher_ic_slim_icon_arrow_down" />
+
+        <TextView
+            android:id="@+id/tv_expire_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/launcher_shape_4dp_white"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="7dp"
+            android:paddingBottom="2dp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:visibility="gone"
+            tools:text="99天后过期"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prop_file_name"
+            style="@style/megrez_view_text_28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="文件名文件名文件名文文件名文件名.jpg" />
+
+        <TextView
+            android:id="@+id/prop_file_size"
+            style="@style/megrez_view_text_24"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="#464646"
+            android:visibility="gone"
+            tools:text="33.3MB"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</LinearLayout>

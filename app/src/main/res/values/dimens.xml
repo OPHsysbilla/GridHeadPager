@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launcher_display_subject_wrong_notebook_height_open">525dp</dimen>
+    <dimen name="launcher_display_subject_wrong_notebook_height_close">247dp</dimen>
+    <dimen name="launcher_display_subject_wrong_notebook_margin_right">32dp</dimen>
+    <dimen name="launcher_wrong_notebook_single_entry_width">536dp</dimen>
+    <dimen name="launcher_wrong_notebook_small_entry_width">347dp</dimen>
+    <dimen name="launcher_wrong_notebook_single_entry_height">280dp</dimen>
+    <dimen name="launcher_cloud_mkdir_name_cell_item_height">97dp</dimen>
+    <dimen name="launcher_cloud_mkdir_dialog_width">720dp</dimen>
+    <dimen name="launcher_cloud_file_item_height">100dp</dimen>
+</resources>
